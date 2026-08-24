@@ -1,0 +1,13 @@
+//led blink
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);    // set GPIO2 as an output pin
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, LOW);  // LOW turns the LED ON
+  delay(1000);                     // wait 1 second
+
+  digitalWrite(LED_BUILTIN, HIGH); // HIGH turns the LED OFF
+  delay(1000);                     // wait 1 second
+}
